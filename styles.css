@@ -1,0 +1,167 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ba97db;
+   
+}
+
+header {
+    background-color: rgb(63, 55, 71);
+    padding: 9% 0;
+    text-align: center;
+    background-image: url('fondo2.webp'); /* Ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el header */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+    padding: 20px;
+    color: rgb(220, 111, 253);
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 3;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(138, 48, 165);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--form-background-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(209, 8, 8, 0.822);
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+section {
+    background-color: rgb(180, 132, 132);
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+img {
+    
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+
+}
+button {
+    background-color: #592064; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cart-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.hidden {
+    display: none;
+}
+
+#cart-message {
+    color: rgb(97, 21, 116);
+    font-weight: bold;
+    margin-top: 10px;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #810e85;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #6d1bb9;
+}
+
+.hidden {
+    display: none;
+}
+
+#confirmation-message {
+    color: rgb(178, 12, 184);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
